@@ -21,5 +21,5 @@ public class ProductEntity {
 	private String name;
 	private float price;
 	private boolean active;
-
+//
 }
