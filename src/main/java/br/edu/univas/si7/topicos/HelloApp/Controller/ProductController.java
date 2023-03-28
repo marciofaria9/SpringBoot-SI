@@ -1,10 +1,6 @@
 package br.edu.univas.si7.topicos.HelloApp.Controller;
 
-import java.util.Collection;
 import java.util.List;
-import java.util.Optional;
-import java.util.function.Supplier;
-import java.util.stream.Collectors;
 
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.HttpStatus;
