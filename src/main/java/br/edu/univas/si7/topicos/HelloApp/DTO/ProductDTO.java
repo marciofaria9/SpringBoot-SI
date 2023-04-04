@@ -2,8 +2,10 @@ package br.edu.univas.si7.topicos.HelloApp.DTO;
 
 import br.edu.univas.si7.topicos.HelloApp.Entities.ProductEntity;
 import lombok.Data;
+import lombok.NoArgsConstructor;
 
 @Data
+@NoArgsConstructor
 public class ProductDTO {
 	private Integer code;
 	private String name;

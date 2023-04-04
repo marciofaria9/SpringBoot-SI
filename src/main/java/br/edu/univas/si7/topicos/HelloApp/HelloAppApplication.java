@@ -26,6 +26,8 @@ public class HelloAppApplication implements CommandLineRunner {
 		repo.save(p1);
 		ProductEntity p2 = new ProductEntity(2, "Feijão", 2.45f, true);
 		repo.save(p2);
+		ProductEntity p3 = new ProductEntity(3, "Sal", 3.50f, true);
+		repo.save(p3);
 
 	}
 

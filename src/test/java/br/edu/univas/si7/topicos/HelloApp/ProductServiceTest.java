@@ -42,7 +42,7 @@ public class ProductServiceTest {
 
 	@Test
 	void testGetProductById() {
-		ProductDTO product = service.findById(1);
+		ProductEntity product = service.findById(1);
 		assertNotNull(product);
 		assertEquals(1, product.getCode());
 	}
